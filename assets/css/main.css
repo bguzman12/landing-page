@@ -3907,3 +3907,6 @@ input, select, textarea {
 			}
 
 		}
+		.wrapper {
+    		color: rgba(255, 255, 255, 0.75);
+		}
