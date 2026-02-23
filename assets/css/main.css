@@ -3910,3 +3910,27 @@ input, select, textarea {
 		.wrapper {
     		color: rgba(255, 255, 255, 0.95);
 		}
+
+		/* Tech stack badges */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin: 0.75em 0 1.25em 0;
+}
+
+.tech-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.4em 0.8em;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 0.85em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tech-badge i {
+  font-size: 1em;
+}
